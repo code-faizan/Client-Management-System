@@ -1,8 +1,6 @@
 # Client-Management-System
 A web-based Client Management System developed using MERN stack, with features including user authentication, client and service management, and more.
 
-# Client Management System
-
 This project is a web application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It includes functionalities for managing clients and services, user authentication, and more.
 
 ## Features
