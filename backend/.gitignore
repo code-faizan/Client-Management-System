@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file (if applicable)
+.env
+
+# Log files
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.idea/
+
+# Optional - if using TypeScript
+dist/
