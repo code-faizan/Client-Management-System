@@ -11,7 +11,10 @@ const app = express();
 // Middleware
 app.use(cors(
 {
-  origin: "https://client-management-system-frontend.vercel.app"
+  origin: "https://client-management-system-frontend.vercel.app",
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+  optionsSuccessStatus: 204
  
 }));
 app.use(express.json());
