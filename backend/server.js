@@ -9,11 +9,7 @@ const serviceRoutes = require('./routes/services');
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin : ["https://client-management-system-frontend.vercel.app/"] , 
-  methods:["POST","GET","PUT","DELETE"],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
